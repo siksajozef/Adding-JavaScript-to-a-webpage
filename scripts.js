@@ -49,8 +49,11 @@ let getGreetingTo = (person) =>{
     console.log(number);
   });
 
-let printValues = (array) => {
-    array.forEach((number) => {
-        console.log(number);
-    });
+let printValues = (array) => 
+{
+    array.forEach
+    (
+        (number) => 
+        {console.log(number);}
+    );
 }
